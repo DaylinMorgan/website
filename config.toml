@@ -1,4 +1,4 @@
-baseURL = "daylinmorgan.github.io/website"
+baseURL = "https://daylinmorgan.github.io/website"
 languageCode = "en-us"
 title = "daylin"
 theme = "ananke"
