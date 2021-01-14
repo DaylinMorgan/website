@@ -1,0 +1,5 @@
+baseURL = "daylinmorgan.github.io/website"
+languageCode = "en-us"
+title = "daylin"
+theme = "ananke"
+publishDir = "docs"
