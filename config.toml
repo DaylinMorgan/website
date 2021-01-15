@@ -1,4 +1,4 @@
-baseURL = "https://daylinmorgan.github.io/website"
+baseURL = "https://dayl.in"
 title = "daylin morgan" # Site title.
 theme = "coder-portfolio" # Set the theme.
 languagecode = "en" # The site’s language code used to generate RSS.
