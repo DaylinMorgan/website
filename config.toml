@@ -32,7 +32,7 @@ pygmentsUseClasses = true # new add
     hideCopyright = false
 
     # Custom CSS
-    custom_css = []
+    custom_css = ["css/custom.css"]
 
     # Alignment of Mobile Menu items
     itemscentered = true
