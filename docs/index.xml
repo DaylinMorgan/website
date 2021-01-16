@@ -2,18 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>daylin morgan</title>
-    <link>https://daylinmorgan.github.io/website/</link>
+    <link>https://dayl.in/</link>
     <description>Recent content on daylin morgan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 13 Jan 2021 18:44:46 -0600</lastBuildDate><atom:link href="https://daylinmorgan.github.io/website/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 13 Jan 2021 18:44:46 -0600</lastBuildDate><atom:link href="https://dayl.in/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My First Post</title>
-      <link>https://daylinmorgan.github.io/website/posts/my-first-post/</link>
+      <link>https://dayl.in/posts/my-first-post/</link>
       <pubDate>Wed, 13 Jan 2021 18:44:46 -0600</pubDate>
       
-      <guid>https://daylinmorgan.github.io/website/posts/my-first-post/</guid>
+      <guid>https://dayl.in/posts/my-first-post/</guid>
       <description>This is a test of Hugo as a static site generator. So far it feels more powerful and polished than pelican.</description>
+    </item>
+    
+    <item>
+      <title>About Me</title>
+      <link>https://dayl.in/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dayl.in/about/</guid>
+      <description>As an engineer, I am constantly in awe of the systems we find in nature.
+My current works involves using synthetic biolgy and next-generation sequencing to interrogate sub-population growth and drug response dynamics in TNBC. This is carried out in the Brock Lab at the Univeristy of Texas at Austin. You can see more of this and previous work here.
+In my spare time, I foray into various programming projects.</description>
     </item>
     
   </channel>
