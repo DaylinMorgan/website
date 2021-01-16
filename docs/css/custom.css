@@ -1,0 +1,9 @@
+.avatar img {
+    max-width: 100%;
+    width: 80rem;
+    height: auto;
+    border-radius: 50%;
+    @media only screen and (max-device-width: 768px) {
+      width: 10rem;
+    }
+  }

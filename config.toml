@@ -55,6 +55,8 @@ pygmentsUseClasses = true # new add
     # Multilanguage mode
     langseparator = "|" # Separates menus from language selectors when site is multilingual.
 
+    faIcons = true
+    
 # Social links
 [[params.social]]
     name = "Github"
