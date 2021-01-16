@@ -44,7 +44,7 @@ pygmentsUseClasses = true # new add
     #snsShare = true # new add
     # Popular sns share
     # if you want add sns. please message!
-   # enableTwitterShare = true  # new add
+    #enableTwitterShare = true  # new add
     #enableFacebookShare = true # new add
     #enableHatenaShare = true   # new add
     #enableLineShare = true     # new add
@@ -71,6 +71,11 @@ pygmentsUseClasses = true # new add
     icon = "fab fa-linkedin"
     weight = 3
     url = "https://www.linkedin.com/in/daylinmorgan/"
+[[params.social]]
+    name = "Email"
+    icon = "fas fa-envelope"
+    weight = 4
+    url = "mailto:me@dayl.in"
 
 # Menu links
 [[menu.main]]
@@ -81,3 +86,22 @@ pygmentsUseClasses = true # new add
     name = "About"
     weight = 2
     url = "about"
+[[menu.main]]
+    name = "Publications"
+    weight = 3
+    url = "publications"
+
+[params.education]
+        [[params.education.list]]
+            degree = "Ph.D. in Biomedical Enginerring"
+            college = "The University of Texas at Austin"
+            dates = "2018-present"
+        [[params.education.list]]
+            degree = "M.S. in Biomedical Engineering"
+            college = "Arizona State University"
+            dates = "2017-2018"
+            thesis_title = "An Integrated Biomanufacturing Platform for the Large Scale Expansion and Differentiation of Neural Progenitor Cells"
+        [[params.education.list]]
+            degree = "B.S.E. in Biomedical Engineering"
+            college = "Arizona State University"
+            dates = "2013-2017"
