@@ -30,4 +30,6 @@
 !.vscode/extensions.json
 *.code-workspace
 
-# End of https://www.toptal.com/developers/gitignore/api/go,vscode
+# End of https://www.toptal.com/developers/gitignore/api/go,vscode\
+
+publications/publications/

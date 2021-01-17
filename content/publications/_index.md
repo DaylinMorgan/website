@@ -5,5 +5,3 @@ thumbnail = "images/tn.png"
 +++
 
 ---------------------------
-
-# COMING SOON!

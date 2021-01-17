@@ -7,3 +7,11 @@
       width: 10rem;
     }
   }
+
+.publication {
+  font-size: 1.6rem;
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    font-size: 1.4rem;
+    margin: 1.6rem 0 1.6rem 0;
+  }
+}

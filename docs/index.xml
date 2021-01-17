@@ -22,7 +22,16 @@
       <pubDate>Wed, 13 Jan 2021 18:44:46 -0600</pubDate>
       
       <guid>https://dayl.in/posts/my-first-post/</guid>
-      <description>This is an initial test of Hugo as a static site generator. So far it feels more powerful and polished than pelican. My next posts will explore the ways in which i have adatpted Hugo and the theme coder-portfolio to my needs.</description>
+      <description>This is an initial test of Hugo as a static site generator. So far it feels more powerful and polished than pelican. My next posts will explore the ways in which I have adapted Hugo and the theme coder-portfolio to my needs.</description>
+    </item>
+    
+    <item>
+      <title>A Defined and Scalable Peptide-Based Platform for the Generation of Human Pluripotent Stem Cell-Derived Astrocytes</title>
+      <link>https://dayl.in/publications/ramandefinedscalablepeptidebased2020/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dayl.in/publications/ramandefinedscalablepeptidebased2020/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -34,6 +43,33 @@
       <description>As an engineer, I am constantly in awe of the systems we find in nature.
 My current works involves using synthetic biolgy and next-generation sequencing to interrogate sub-population growth and drug response dynamics in TNBC. This is carried out in the Brock Lab at the Univeristy of Texas at Austin. You can see more of this and previous work here.
 In my spare time, I foray into various programming projects.</description>
+    </item>
+    
+    <item>
+      <title>An Integrated Biomanufacturing Platform for the Large-Scale Expansion and Neuronal Differentiation of Human Pluripotent Stem Cell-Derived Neural Progenitor Cells</title>
+      <link>https://dayl.in/publications/srinivasanintegratedbiomanufacturingplatform2018/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dayl.in/publications/srinivasanintegratedbiomanufacturingplatform2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Functionalized Lineage Tracing for the Study and Manipulation of Heterogeneous Cell Populations. Accepted.</title>
+      <link>https://dayl.in/publications/morganfunctionalizedlineagetracing2021/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dayl.in/publications/morganfunctionalizedlineagetracing2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Integrating Transcriptomics and Bulk Time Course Data into a Mathematical Framework to Describe and Predict Therapeutic Resistance in Cancer</title>
+      <link>https://dayl.in/publications/johnsonintegratingtranscriptomicsbulk2020/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dayl.in/publications/johnsonintegratingtranscriptomicsbulk2020/</guid>
+      <description></description>
     </item>
     
   </channel>
