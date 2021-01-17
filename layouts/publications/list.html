@@ -1,0 +1,25 @@
+{{ define "og-title" }}
+  {{ .Title }} - {{ .Site.Title }}
+{{ end }}
+{{ define "title" }}
+  {{ .Title }} - {{ .Site.Title }}
+{{ end }}
+{{ define "content" }}
+<section class="container list">
+  <h1 class="title">{{ .Title }}</h1>
+  <ul>
+    {{ range (.Pages.GroupByParam "year").Reverse}}
+    <h3> {{ .Key }} </h3>
+      {{ range .Pages }}
+      <li>
+        <publication>{{ .Title }}. {{ .Params.journal }} ({{ .Params.year }})</publication>
+        {{ if .Params.doi }}
+        <a href ="https://doi.org/{{.Params.doi}}"> DOI.</a>
+        <br>
+        {{end}}
+      </li>
+      {{ end }}
+    {{ end }}
+  </ul>
+</section>
+{{ end }}
