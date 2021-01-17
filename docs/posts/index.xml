@@ -6,7 +6,16 @@
     <description>Recent content in Posts on daylin morgan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 16 Jan 2021 12:38:07 -0600</lastBuildDate><atom:link href="https://dayl.in/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 17 Jan 2021 00:00:00 -0600</lastBuildDate><atom:link href="https://dayl.in/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How I used bibtex and python to automatically generate my publications page</title>
+      <link>https://dayl.in/posts/publications-how-to/</link>
+      <pubDate>Sun, 17 Jan 2021 00:00:00 -0600</pubDate>
+      
+      <guid>https://dayl.in/posts/publications-how-to/</guid>
+      <description>Basic Workflow  Generate bibtex using references managed in Zotero Parse and edit metadata as necessary Write markdown documents for each entry in bibtex Transfer these documents to the content/publications directory Generate a list page for each article grouped and ordered by year   The central goal of this script is to take a bibtex file and automatically generate a requisite markdown document per article with the necessary front matter to generate my publications page.</description>
+    </item>
+    
     <item>
       <title>How I adapted Hugo to build and style my personal website</title>
       <link>https://dayl.in/posts/hugo-theme-setup/</link>
