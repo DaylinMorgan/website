@@ -52,12 +52,15 @@ def entry_parser(entry):
 
     if 'journal' not in entry.keys():
         if entry['booktitle']:
-            entry['journal'] = entry['booktitle']
+            entry['journal'] = entry['booktitle'].replace('{','').replace('}','')
         else:
-            #print(f'no journal entry found for {entry['title']}')
+            print(f"no journal entry found for {entry['title']}")
             entry['journal'] = ''
     else:
         entry['journal'] = entry['journal'].replace('\\','').replace('{','').replace('}','')
+
+    if entry['volume'].isdigit():
+        entry['volume'] = f"vol. {entry['volume']}"
 
     for key in metadata:
         if key not in entry.keys():
@@ -80,6 +83,7 @@ def make_markdown_strs(bib_db):
         journal = "{entry['journal']}"
         year = "{entry['year']}"
         month = "{entry['month']}"
+        volume = "{entry['volume']}"
         doi = "{entry['doi']}"
         id = "{entry['ID']}"
         +++

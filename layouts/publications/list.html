@@ -12,10 +12,10 @@
     <h3> {{ .Key }} </h3>
       {{ range .Pages }}
       <li>
-        <publication>{{ .Title }}. {{ .Params.journal }} ({{ .Params.year }})</publication>
+        <publication>{{ .Title }}. {{ .Params.journal }}. {{ .Params.volume}} ({{ .Params.year }})</publication>
         {{ if .Params.doi }}
         <a href ="https://doi.org/{{.Params.doi}}"> DOI.</a>
-        <br>
+        <br><br>
         {{end}}
       </li>
       {{ end }}

@@ -4,6 +4,7 @@ authors = "Raman, S., Morgan, D. et al."
 journal = "ACS Biomaterials Science & Engineering"
 year = "2020"
 month = "June"
+volume = "vol. 6"
 doi = "10.1021/acsbiomaterials.0c00067"
 id = "ramanDefinedScalablePeptideBased2020"
 +++

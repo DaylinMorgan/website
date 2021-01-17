@@ -4,6 +4,7 @@ authors = "Johnson, K., Morgan, D. et al."
 journal = "Physical Biology"
 year = "2020"
 month = "November"
+volume = "vol. 18"
 doi = "10.1088/1478-3975/abb09c"
 id = "johnsonIntegratingTranscriptomicsBulk2020"
 +++

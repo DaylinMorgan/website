@@ -32,4 +32,4 @@
 
 # End of https://www.toptal.com/developers/gitignore/api/go,vscode\
 
-publications/publications/
+publications/publications/*
