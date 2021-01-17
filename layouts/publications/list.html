@@ -12,7 +12,19 @@
     <h3> {{ .Key }} </h3>
       {{ range .Pages }}
       <li>
-        <publication>{{ .Params.authors }}. {{ .Title }}. <i>{{ .Params.journal }}.</i> {{ .Params.volume}}  ({{ .Params.year }})</publication>
+        <publication>
+          {{ $authornum := len .Params.authors }}
+            {{ range $index, $author := .Params.authors }} 
+            {{ if eq ( $author ) "Morgan, D."}}
+              <b>{{$author}}</b>,
+            {{ else if eq (add $index +1) $authornum}}
+              and {{ $author }}
+            {{else}}
+              {{ $author }},
+            {{ end }}
+          {{ end }}
+          {{ .Title }}. <i> {{ .Params.journal }}.</i> {{ .Params.volume}}  ({{ .Params.year }})
+        </publication>
         {{ if .Params.doi }}
         <a href ="https://doi.org/{{.Params.doi}}"> DOI.</a>
         <br><br>

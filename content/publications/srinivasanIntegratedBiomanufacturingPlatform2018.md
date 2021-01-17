@@ -1,6 +1,6 @@
 +++
 title = "An Integrated Biomanufacturing Platform for the Large-Scale Expansion and Neuronal Differentiation of Human Pluripotent Stem Cell-Derived Neural Progenitor Cells"
-authors = "Srinivasan, G., Morgan, D. et al"
+authors = ['Srinivasan, G.', 'Morgan, D.', 'Varun, D.', 'Brookhouser, N.', 'Brafman, D.']
 journal = "Acta Biomaterialia"
 year = "2018"
 month = "July"

@@ -1,6 +1,6 @@
 +++
 title = "A Defined and Scalable Peptide-Based Platform for the Generation of Human Pluripotent Stem Cell-Derived Astrocytes"
-authors = "Raman, S., Morgan, D. et al"
+authors = ['Raman, S.', 'Srinivasan, G.', 'Brookhouser, N.', 'Nguyen, T.', 'Henson, T.', 'Morgan, D.', 'Cutts, J.', 'Brafman, D.']
 journal = "ACS Biomaterials Science & Engineering"
 year = "2020"
 month = "June"
