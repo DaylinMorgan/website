@@ -1,6 +1,6 @@
 +++
 title = "Integrating Transcriptomics and Bulk Time Course Data into a Mathematical Framework to Describe and Predict Therapeutic Resistance in Cancer"
-authors = "Johnson, K., Morgan, D. et al."
+authors = "Johnson, K., Morgan, D. et al"
 journal = "Physical Biology"
 year = "2020"
 month = "November"

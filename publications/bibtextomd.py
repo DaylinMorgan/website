@@ -18,6 +18,7 @@ bibfile_path = 'mypublications.bib'
 
 
 def parse_bibtex(bibfile_path):
+    print(f'Parsing bibtex file: {bibfile_path}')
     parser = bibtexparser.bparser.BibTexParser(common_strings=True)
 
     with open(bibfile_path,'r') as bibfile:
@@ -36,15 +37,17 @@ def parse_authors(author_list):
         last_firstinitial = f'{last_name}, {first_name[0]}.'
         authors.append(last_firstinitial)
      
-    if len(author_list) > 2:
-        if 'Morgan' in author_list[0]:
-            return 'Morgan, D. et al.'
+    if len(author_list) > 3:
+
+        if 'Morgan' in authors[0]:
+            return 'Morgan, D. et al'
         else:
-            return f'{authors[0]}, Morgan, D. et al.'
+            return f'{authors[0]}, Morgan, D. et al'
     else:
         return f'{", ".join(authors[:-1])} and {authors[-1]}' 
 
 def entry_parser(entry):
+    print(f"Correcting metadata for entry: {entry['ID']}")
 
     entry['authors'] = parse_authors(entry['author'])
 
@@ -95,6 +98,7 @@ def make_markdown_strs(bib_db):
 
 
 def make_publications_dir(markdown_dict):
+    print('Generating markdown documents')
 
     for id,value in markdown_dict.items():
         with open(f'publications/{id}.md','w') as f:
@@ -102,6 +106,7 @@ def make_publications_dir(markdown_dict):
 
 
 def copy_directory_to_content():
+    print('Copying markdown documents to content/publications')
     src = 'publications'
     dst = '../content/publications'
 
