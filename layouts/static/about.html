@@ -7,23 +7,23 @@
 
 {{ define "content" }}
 <section class="container page">
-    <article>
-        <header>
-            <h1>{{ .Title }}</h1>
-        </header>
+  <article>
+    <header>
+      <h1>{{ .Title }}</h1>
+    </header>
 
-        {{ .Content }}
+    {{ .Content }}
 
-    </article>
-    <H2><i class="fa fa-graduation-cap" aria-hidden="true"></i>Education </H2>
-    {{ range .Site.Params.education.list }}
-    <dl>
-        <dt>{{ .degree }}</dt>
-        <dd class="mb-0 ml-3">{{ .dates }} &middot; {{ .college }}</dd>
-        {{ if .thesis_title }}
-        <dd class="mb-0 ml-3">Thesis: {{ .thesis_title}} </dd>
-        {{ end }}
-    </dl>
+  </article>
+  <H2><i class="fa fa-graduation-cap" aria-hidden="true"></i>Education </H2>
+  {{ range .Site.Params.education.list }}
+  <dl>
+    <dt>{{ .degree }}</dt>
+    <dd class="mb-0 ml-3">{{ .dates }} &middot; {{ .college }}</dd>
+    {{ if .thesis_title }}
+      <dd class="mb-0 ml-3">Thesis: {{ .thesis_title}} </dd>
     {{ end }}
+  </dl>
+  {{ end }}
 </section>
 {{ end }}
