@@ -12,7 +12,7 @@ In order to personalize the [theme](https://github.com/naro143/hugo-coder-portfo
 
 As such, I will summarize here, at the time of creation, the changes I made to suit coder-portfolio to own my website. I may update this post or create a new post if I make more drastic changes to the theme or my own layouts.
 
-The first thing I wanted to change about the theme was to make the avatar or profile image found on the home page much larger. Initially I changed this in the `static/css/style.min.css`. Unaware of how difficult to see this change in version control would be. Luckily, this theme has designed its base page layout `baseof.html` to include a call from `config.toml` for custom css. So I created a seperate `custom.css` within the `static/css/` directory to make the necessary changes to the `.avatar` class, shown below. Since this style sheet is loaded after the themes style sheets it will override any classes shared between them. 
+The first thing I wanted to change about the theme was to make the avatar or profile image found on the home page much larger. Initially I changed this in the `static/css/style.min.css`. Unaware of how difficult to see this change in version control would be. Luckily, this theme has designed its base page layout `baseof.html` to include a call from `config.toml` for custom css. So I created a separate `custom.css` within the `static/css/` directory to make the necessary changes to the `.avatar` class, shown below. Since this style sheet is loaded after the themes style sheets it will override any classes shared between them. 
 
 ```css
 .avatar img {
@@ -31,7 +31,7 @@ Next, I needed to make some changes to the `layouts/_default/baseof.html` layout
 {{ end }}
 ```
 
-Finally, I wanted to change the was the about section was generated to allow me to define my education in my `config.toml` and render them at the bottom of the about page. Since, this would require changing the layout used from the themes generic `page.html` layout. I made a custom about section layout `layouts/static/about.html`. In the event I develop other static pages for my site I will also leave their layouts here. In order to ensure Hugo preferred this layout I add the line `type = "static"` to the front matter of my `about.md`. I took the `single.html` from my theme and added the following lines.
+Finally, I wanted to change the way the about section was generated to allow me to define my education in my `config.toml` and render them at the bottom of the about page. Since, this would require changing the layout used from the themes generic `page.html` layout. I made a custom about section layout `layouts/static/about.html`. In the event I develop other static pages for my site I will also leave their layouts here. In order to ensure Hugo preferred this layout I add the line `type = "static"` to the front matter of my `about.md`. I took the `single.html` from my theme and added the following lines.
 
 ```html
 <section class="container page">
