@@ -8,4 +8,4 @@ To update publications from Zotero or another reference manager, export your sel
 
 with `publications/` as your working directory use `python bibtextomd.py` to generate a fresh set of markdowns. 
 
-Following this use run `hugo` to rebuild with updated publications.
+Following this use `hugo` to rebuild with updated publications.

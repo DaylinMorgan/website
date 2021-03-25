@@ -1,12 +1,12 @@
-+++ 
-draft = false
-date = 2021-01-16T12:38:07-06:00
-title = "How I adapted Hugo to build and style my personal website"
-slug = "" 
-tags = []
-categories = []
-description = ""
-+++
+---
+categories: []
+date: "2021-01-16T12:38:07-06:00"
+description: ""
+draft: false
+slug: ""
+tags: []
+title: How I adapted Hugo to build and style my personal website
+---
 
 In order to personalize the [theme](https://github.com/naro143/hugo-coder-portfolio) I chose for my website, I initially forked the project on github and placed it in the `themes/` directory of my website repo using `git submodule add`. I made a few minor changes to the html's and css, but ultimately decided it would be simpler to leave the theme repo in the same state as it's main repo. Hugo gives priority to the layouts found in the parent directory. See [here](https://gohugo.io/templates/lookup-order/) for an explanation of template lookup order in the Hugo documenation.
 

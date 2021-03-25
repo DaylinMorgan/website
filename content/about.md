@@ -1,12 +1,12 @@
-+++
-title = "About Me"
-slug = "about"
-thumbnail = "images/tn.png"
-description = "about"
-type = "static"
-page = "static/about.html"
-layout = "about"
-+++
+---
+description: about
+layout: about
+page: static/about.html
+slug: about
+thumbnail: images/tn.png
+title: About Me
+type: static
+---
 
 ---------------------------
 

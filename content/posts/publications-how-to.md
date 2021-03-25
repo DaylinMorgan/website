@@ -1,14 +1,14 @@
-+++ 
-draft = false
-date = 2021-01-17
-title = "How I used bibtex and python to automatically generate my publications page"
-slug = "" 
-tags = []
-categories = []
-thumbnail = "<no value>"
-description = ""
-publishdate = 2021-01-17
-+++
+---
+categories: []
+date: "2021-01-17T00:00:00-06:00"
+description: ""
+draft: false
+publishdate: "2021-01-17T00:00:00-06:00"
+slug: ""
+tags: []
+thumbnail: <no value>
+title: How I used bibtex and python to automatically generate my publications page
+---
 
 
 

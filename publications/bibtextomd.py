@@ -71,16 +71,16 @@ def make_markdown_strs(bib_db):
 
         markdown_dict[entry['ID']] = textwrap.dedent(
         f'''
-        +++
-        title = "{entry['title']}"
-        authors = {entry['authors']}
-        journal = "{entry['journal']}"
-        year = "{entry['year']}"
-        month = "{entry['month']}"
-        volume = "{entry['volume']}"
-        doi = "{entry['doi']}"
-        id = "{entry['ID']}"
-        +++
+        ---
+        title: "{entry['title']}"
+        authors: {entry['authors']}
+        journal: "{entry['journal']}"
+        volume: "{entry['volume']}"
+        month: "{entry['month']}"
+        year: "{entry['year']}"
+        doi: "{entry['doi']}"
+        id: "{entry['ID']}"
+        ---
         '''
         ).strip()
 

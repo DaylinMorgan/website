@@ -1,7 +1,7 @@
-+++
-title = "Publications"
-slug = "publications"
-thumbnail = "images/tn.png"
-+++
+---
+slug: publications
+thumbnail: images/tn.png
+title: Publications
+---
 
 ---------------------------
